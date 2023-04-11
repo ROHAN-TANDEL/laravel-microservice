@@ -1,3 +1,11 @@
+.gitignore
+artisan
+.editorconfig
+.env.example
+.gitattributes
+.styleci.yml
+/phpunit.xml
+/tests
 /vendor/
 node_modules/
 npm-debug.log
@@ -21,3 +29,13 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+/node_modules
+/public
+/public/storage
+/storage
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+composer.lock
